@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon">
+    <style>
+
+        h1
+        {
+            text-align: center;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.616), gray);
+        }
+
+        table
+        {
+            border-collapse: collapse;
+            border: 4px solid black;
+            width: 500px;
+           
+
+        }
+
+        caption
+        {
+            background-color: rgb(50, 50, 50);
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.7em;
+            color: white;
+        }
+
+        tbody tr:nth-child(2n)
+        {
+            background-color: rgb(184, 184, 184);
+        }
+
+        th
+        {
+            border: 2px solid black;
+            padding: 6px;
+                        
+        }
+
+        thead tr th
+        {
+            background-color: gray;  
+            position: sticky;
+            top: -2px;
+
+        }
+        
+        td
+        {
+            border: 2px solid black;
+            padding: 6px;
+        
+        }
+
+        tfoot
+        {
+            border: 2px solid black;
+            padding: 6px;
+            width: 400px; 
+            background-color: gray       
+        }
+        .numero
+        {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Estados e sua população</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 223 547</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 870 907</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 890 517</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 233 263</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 562 007</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 711 196</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina</td>
+                <td class="numero">8 187 029</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7 423 629</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7 018 211</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">4 321 616</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4 164 468</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">4 126 854</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="numero">3 893 659</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+                <td class="numero">3 455 236</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3 384 547</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3 220 848</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="numero">2 924 631</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="numero">2 299 425</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="numero">1 751 950</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="numero">1 586 859</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="numero">884 372	</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="numero">806 517</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">738 772</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="numero"><strong>213 421 037</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas maxime tempore dicta reprehenderit, voluptates fugiat tempora, eveniet sunt suscipit sed esse accusantium similique earum vel deserunt laudantium reiciendis voluptate ut laborum alias quas eaque. Pariatur totam, esse consequuntur tenetur eos beatae ullam velit necessitatibus. Modi veritatis laborum numquam dolor, quidem dignissimos ipsa quia maiores nihil assumenda adipisci suscipit nostrum ex? Neque nemo quia aperiam, fugiat libero et mollitia consequuntur exercitationem sit odit iusto molestiae saepe expedita assumenda alias, quisquam dignissimos. Ratione quisquam iste fuga dolor quibusdam neque tempore blanditiis odio temporibus dolores consequatur, totam dolore odit debitis corrupti est perferendis aliquam voluptates magni cupiditate ducimus repellendus. Recusandae laudantium dignissimos dolorem natus unde error facere, sapiente qui sunt eveniet necessitatibus iusto a quos ipsum in? Placeat laborum eum eveniet, hic totam tempora accusantium quaerat iure mollitia quae, sapiente voluptatem nobis optio omnis! Dolorum incidunt aperiam in distinctio maxime alias itaque voluptas magnam odit sit officia inventore nam, vel, accusantium voluptatibus minima reiciendis! Animi, enim molestiae cupiditate voluptatibus fugit velit ullam qui, laboriosam excepturi ipsam magnam quidem dolor error rem nihil exercitationem amet similique ab praesentium consequuntur asperiores. Neque voluptate nemo placeat rem suscipit, aperiam repellat a doloribus modi? Unde dicta ea consequatur temporibus, veritatis incidunt? Eos doloremque error aliquid excepturi est unde ducimus corporis aliquam omnis quia? Iure soluta aliquid laboriosam sunt perspiciatis nemo nobis sit error esse officiis, dolorum omnis natus officia neque dicta temporibus voluptas hic dolores rerum totam. Quo officiis aut accusamus inventore! Delectus iure, deleniti quasi maxime numquam magnam perferendis magni illo, sint laboriosam tempore doloribus eum? Repellat dicta asperiores nulla modi assumenda a aliquam minus pariatur. Eos, ad. Dolorum modi quam saepe! Et quibusdam natus nisi illo vel, fugit, provident corporis doloribus voluptates libero exercitationem tenetur atque possimus iure debitis cupiditate rerum magni mausandae iusto esse impedit velit dignissimos quod officiis quae, ducimus similique pariatur commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam numquam delectus id culpa ducimus exercitationem nostrum similique libero pariatur reiciendis commodi error molestias soluta quo, natus at a earum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur nesciunt accusantium iste sint neque veniam consequuntur ipsam omnis exercitationem adipisci! Assumenda facere veritatis natus maxime sit dolores, voluptatibus obcaecati dolorem. Libero aut saepe ea id deserunt? Non id nostrum eaque dignissimos praesentium, aut sed aspernatur tempora temporibus maiores blanditiis deserunt? Aperiam et minima doloribus enim modi ut quidem laudantium assumenda reprehenderit, numquam officiis eum adipisci error aspernatur accusamus deserunt recusandae qui cum iste, ipsa, voluptatibus nemo illo magnam. Modi distinctio a sequi officiis molestias, corporis nostrum tempore id magni, odit repellendus ad porro debitis consectetur sunt eligendi laborum praesentium alias!</p>
+</body>
+</html>
